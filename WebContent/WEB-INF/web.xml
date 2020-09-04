@@ -23,7 +23,7 @@
 
   <servlet-mapping>
 	<servlet-name>PrimeiraServlet</servlet-name>
-	<url-pattern>/oi/*</url-pattern>
+	<url-pattern>/oi</url-pattern>
   </servlet-mapping>
 
   <servlet-mapping>
