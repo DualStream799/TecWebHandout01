@@ -35,11 +35,23 @@ public class AdicionaNome extends HttpServlet {
 		String curso = request.getParameter("curso");
 		PrintWriter out = response.getWriter();
 		out.println("<html>");
-		out.println("<body>");
-		out.println("Nome: " + nome);
-		out.println("E-mail: " + email);
-		out.println("Curso: " + curso);
-		out.println("</body>");
+			out.println("<body>");
+				out.println("<p1>");
+				out.println("Nome: " + nome);
+				out.println("</p1>");
+				
+				out.println("<br>");
+				
+				out.println("<p1>");
+				out.println("E-mail: " + email);
+				out.println("</p1>");
+				
+				out.println("<br>");
+
+				out.println("<p1>");
+				out.println("Curso: " + curso);
+				out.println("</p1>");
+			out.println("</body>");
 		out.println("</html>");
 	}
 
